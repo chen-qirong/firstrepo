@@ -1,3 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int nums[5]={1,2,3,4,5};
+	binarySearch(nums,3);
+	return 0;
+}
+
+
+
 public int binarySearch(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
         return -1;
@@ -30,3 +40,4 @@ public int binarySearch(int[] nums, int target) {
     
     return -1;
 }
+
